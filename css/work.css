@@ -1,0 +1,44 @@
+.our-work {
+    background-color: var(--section-color);
+  }
+
+  .our-work ul .active {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+  }
+  
+  .our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .our-work ul li:not(.active):hover {
+    color: var(--red-color);
+  }
+  
+  .our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .our-work .box::before {
+    content: attr(data-work);
+
+    position: absolute;
+    background-color: rgb(51 209 204 / 76%); /*76% opacity*/
+    width: calc(100% - 10px);/*بدي على ئد الصورة لذلك طرحت الحواف padding*/
+    height: calc(100% - 10px);
+  
+    display: flex;/*to make the text in center of card*/
+    justify-content: center;
+    align-items: center;
+  
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    transform: translateX(calc(-100% - 5px));/*5px كرمال padding */
+  }
+  .our-work .box:hover::before {
+    transform: translateX(0);
+  }

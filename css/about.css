@@ -1,0 +1,8 @@
+.about{
+  background-color: var(--section-color);
+
+}
+
+.about .description {
+    max-width: 500px;
+  }

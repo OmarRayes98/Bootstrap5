@@ -1,0 +1,119 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-btn {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  color: var(--yellow-color);
+}
+.main-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Start Navbar */
+
+/* End Navbar */
+
+/* Start Landing */
+/* End Landing */
+
+/* Start Features */
+
+/* End Features */
+/* Start Our Work */
+
+/* End Our Work */
+
+/* Start Stuff */
+
+/* End Stuff */
+/* Start Team */
+.team {
+  background-color: var(--section-color);
+}
+.team h2 {
+  color: var(--yellow-color);
+}
+.team .box h4 {
+  background-color: var(--green-color);
+}
+/* End Team */
+/* Start Project */
+.project {
+  background-color: var(--dark-color);
+}
+/* End Project */
+/* Start Subscribe */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--yellow-color);
+}
+/* End Subscribe */
+/* Start Footer */
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .navbar-brand span:first-child {
+  color: #08526d;
+  font-weight: bold;
+}
+
+.footer .navbar-brand span:last-child {
+  color: #ec1c23;
+}
+.footer .copyright > span {
+  color: var(--green-color);
+}
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+/* End Footer */

@@ -1,0 +1,20 @@
+
+
+
+.slider .carousel-inner .carousel-item img{
+    height: 400px;
+}
+.slider .carousel-inner .carousel-item .text-img{
+    position: absolute;
+    color: #FFF;
+    left: 50px;
+    line-height: 1.5;
+    width: 250px;  
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.slider .carousel-indicators li {
+    height: 5px;
+    cursor: pointer;
+  }
